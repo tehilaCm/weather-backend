@@ -18,7 +18,7 @@ const postWeatherSearch = (weatherDetails) => {
   return new Promise((resolve, reject) => {
     let options = {
       method: "POST",
-      url: "http://localhost:4000/weather/postSearch",
+      url: "https://weather-app-tehila.herokuapp.com/weather/postSearch",
       json: weatherDetails,
     };
 
